@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 90%;
+    padding: 30px;
+    position :fixed;
+}
+.logo{
+    /* width: 100%; */
+    float: left;
+}
+.logo img{
+    width: 50%;
+}
+.list{
+    float: right;
+}
+.list ul{
+    padding-right: 30px;
+}
+.list a{
+    border-top: 2px solid #8F7854;
+    text-decoration: none;
+    color: white;
+    /* margin-top: 50px; */
+    padding: 20px;
+}
+.one{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: 50%;    
+    height: 100vh;
+
+}
+.one p{
+    padding-top: 60px;
+    color: #ccc;
+    width:80%;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.one .welcome{
+    padding-top: 130px;
+}
+.one h1{
+    padding-top: 40px;
+    color: white;
+    font-size: 60px;
+}
+
+.one button{
+    height: 50px;
+    width: 120;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+
+}
+.one .button1{
+    background-color: #8e7754;
+}
+.about{
+    padding: 40px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+.member1{
+    width: 50%;
+    /* background-color: aquamarine; */
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.member1 img{
+    width: 100%;
+}
+.member2{
+    width: 45%;
+    /* background-color: aqua; */
+    float: right;  
+     
+}
+.member2 h2{
+    padding: 20px;
+    text-align: center;
+
+}
+.member2 p{
+    font-size: 20px;
+    text-align: center;
+    color: #686868;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.memeber3 p{
+    display: inline-block;
+    vertical-align: top;
+}
+.member4{
+    padding: 40px;
+    background-color: #F8F8F8;
+
+}
+.child1{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.child1 h2{
+    size: 20px;
+    padding : 25px;
+
+}
+.child1 p{
+    color : #686868;
+    padding: 15px;
+    font-size: 18px;
+}
+.child2{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+.child2 img{
+    width: 80%;
+
+}
+.member5{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    height: 80%;
+    margin-bottom: 30px;
+}
+.member5 p{
+    padding: 10px;
+    color: #686868;
+    font-size: 18px;
+}
+.member5 h2{
+    padding: 30px;
+}
+.child3{
+    width: 30%;
+    float: left;
+
+}
+.child3 h3{
+    margin: 10px;
+}
+.child3 img{
+    padding: 10px;
+    width: 90%;
+}
+.member6{
+    text-align: center;
+    background-color: #F8F8F8;
+    margin: auto;
+    text-align: center;
+}
+.child4{
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+
+}
+.child4 h2{
+    padding : 30px;
+    text-align: center;
+}
+.child4 p{
+    color: #686868;
+    font-size: 18px;
+
+}
+.child5{
+    padding :30px;
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+.contact{
+    text-align: left;
+}
+.contact p{
+    padding: 10px;
+}
+
+.member7{
+    background-color: #403D38;
+    font-size: 18px;
+}
+.son{
+    float: left;
+    width: 21%;
+    padding: 20px;
+    color: #969696;
+}
+.son li{
+    padding: 10px; 
+}
+.son h2{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+.son p{
+    padding: 10px;
+}
+.son a{
+    color: #969696;
+    text-decoration: none;
+    font-size: 18px;
+}
+.line{
+    background-color: rgb(47, 47, 47);
+    width: 300px;
+    height: 1px;
+}
+.footer{
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+}
+.footer img{
+    padding: 20px;
+    width: 15%;
+}
+.footer p{
+    color: #968A6B;
+}
+.icons{
+    padding: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      background-color: #3B5998;
+      color: white;
+  }
+  
+  .fa-facebook {
+    background: #8e7754;
+    
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+.clr{
+    clear: both;
+}
